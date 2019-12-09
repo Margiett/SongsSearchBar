@@ -89,18 +89,15 @@ extension ViewController: UISearchBarDelegate {
         
         
     }
-//    func searchBar (_ searchBar: UISearchBar) {
-//        searchBar.resignFirstResponder()
-//
-//
-//
-//    }
+    
+    // i dont know what this is doing ?? 
+    func searchBar (_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+
+
+
+    }
 }
-
-
-
-
-
 
 
 extension ViewController: UITableViewDataSource,UITableViewDelegate {
